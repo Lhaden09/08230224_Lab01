@@ -1,0 +1,111 @@
+
+
+body, ul, li, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+  }
+  body {
+    background: #fff;
+    color: #333;
+  }
+
+  /* Topbar */
+  .topbar {
+    background: #004080;
+    padding: 8px 0;
+  }
+  .topbar .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+  }
+  .topbar .nav-links li {
+    margin-left: 20px;
+  }
+  .topbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .topbar .nav-links a:hover {
+    text-decoration: underline;
+  }
+
+  /* Main navigation */
+  .main-nav {
+    display: flex;
+    align-items: center;
+    padding: 15px 50px;
+    background: #fff;
+    border-bottom: 2px solid #ddd;
+  }
+  .logo-container {
+    flex: 1;
+  }
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  .nav-section {
+    margin-left: 30px;
+    text-align: center;
+  }
+  .nav-section a {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #004080;
+  }
+  .nav-section p {
+    font-size: 12px;
+    color: #555;
+  }
+  .btn-red {
+    background: #cc0000;
+    color: #fff !important;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+
+  /* Banner */
+  .banner {
+    background: url("https://www.sce.edu.bt/wp-content/uploads/2021/06/banner.jpg") no-repeat center;
+    background-size: cover;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  /* Main content */
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+  }
+  .video-container {
+    flex: 1;
+    margin-right: 30px;
+  }
+  .greetings {
+    flex: 1;
+  }
+  .greetings h2 {
+    color: #004080;
+    margin-bottom: 10px;
+  }
+  .greetings p {
+    line-height: 1.6;
+  }
+
+  /* Footer */
+  footer {
+    background: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
